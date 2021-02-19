@@ -24,4 +24,4 @@
 - this theme supports a primary menu and a footer menu 
 - support for an example custom post type is commented out in functions.php
 - this theme supports an [advanced custom fields](https://www.advancedcustomfields.com) site options page (see functions.php)
-- included and commented-out vendor files may not be totally up-to-date...it's best to double check 🤓
+- included and commented-out vendor scripts/files may not be totally up-to-date...it's best to double check 🤓

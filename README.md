@@ -10,6 +10,7 @@
 - search for __\<author\>__ & replace it with your name/email/github
 - delete this readme
 - delete vendor scripts, vendor css files & theme supports you don't need/want
+- delete the example page template if you don't need it (page-templates/example-template.php)
 - commit your initial code before installing node modules and compiling css
 
 ### Notes:

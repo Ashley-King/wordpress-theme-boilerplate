@@ -2,7 +2,7 @@
 /**
  * The default template for all pages
  *
- * Template Name: Subpage Template
+ * Template Name: Default Template
  * description: Page template for subpages like privacy policy
  * 
 

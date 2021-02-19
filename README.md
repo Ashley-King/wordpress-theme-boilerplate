@@ -18,7 +18,7 @@
 - this theme compiles css using <pre>npm run start</pre>
 - all css compiles to style.css
 - __changes made directly to style.css will not persist__
-- all css & sass code should go in the sass files
+- all css & sass code should go in the sass directory
 - all sass files are imported into /assets/sass/style.scss
 - this theme imports the [bootstrap grid](https://github.com/twbs/bootstrap/blob/main/dist/css/bootstrap-grid.min.css) and [normalize.css](https://necolas.github.io/normalize.css/)
 - scripts for [slick slider](https://kenwheeler.github.io/slick/), [micromodal](https://micromodal.now.sh) & [perfect scrollbar](https://github.com/mdbootstrap/perfect-scrollbar) are commented out in functions.php

@@ -18,6 +18,7 @@
 - this theme has a preconfigured .gitignore file
 - this theme compiles css using <pre>npm run start</pre>
 - all css compiles to style.css
+- the 'Roboto' google font is enqueued by default
 - __changes made directly to style.css will not persist__
 - all css & sass code should go in the sass directory
 - all sass files are imported into /assets/sass/style.scss

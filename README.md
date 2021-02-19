@@ -1,4 +1,4 @@
-# Super Simple, Sass-friendly Wordpress Theme Boilerplate
+# 🦩 Super Simple, Sass-friendly Wordpress Theme Boilerplate 🦩
 ---
 ## This is a barebones theme consisting of *mostly empty* default (index.php), header, footer, front-page, home & 404 page templates.
 

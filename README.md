@@ -12,6 +12,7 @@
 - delete vendor scripts, vendor css files & theme supports you don't need/want
 - delete the example page template if you don't need it (page-templates/example-template.php)
 - commit your initial code before installing node modules and compiling css
+- add your favicons/site.manifest files to the root or delete the links in the header
 
 ### Notes:
 - this theme has a preconfigured .gitignore file

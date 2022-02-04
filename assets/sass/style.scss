@@ -12,9 +12,7 @@
 */
 //ALL CSS IS COMPILED INTO STYLE.CSS; ALL CSS CHANGES SHOULD BE MADE TO THE SASS FILES
 
-// include normalize & framework styles first
-@import './vendor/normalize.scss';
-@import './vendor/bootstrap.min.scss';//grid only
+
 // include global styles & variables next, then helpers
 @import './globals-variables';
 @import './helpers';

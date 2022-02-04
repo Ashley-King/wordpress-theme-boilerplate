@@ -5,6 +5,7 @@
 /wp-content/themes/<theme>/package-lock.json
 /wp-content/themes/<theme>/composer.lock
 /wp-content/themes/<theme>/assets/css/style.css.map
+/wp-content/themes/<theme>/style.css.map
 /wp-content/themes/<theme>/false
 /wp-content/*.sql
 /wp-content/*.sql.zip

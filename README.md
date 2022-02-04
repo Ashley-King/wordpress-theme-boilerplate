@@ -4,15 +4,16 @@
 
 ---
 ### Do This First:
+- put .gitignore in root dir
 - rename the theme directory 
 - search for __\<theme\>__ & replace it with your theme name
 - search for __\<company\>__ & replace it with the name of the company
 - search for __\<author\>__ & replace it with your name/email/github
-- delete this readme
 - delete vendor scripts, vendor css files & theme supports you don't need/want
 - delete the example page template if you don't need it (page-templates/example-template.php)
 - commit your initial code before installing node modules and compiling css
 - add your favicons/site.manifest files to the root or delete the links in the header
+- rewrite readme
 
 ### Notes:
 - this theme has a preconfigured .gitignore file

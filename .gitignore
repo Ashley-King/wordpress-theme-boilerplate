@@ -1,4 +1,6 @@
 .DS_Store
+.well-known
+.htaccess
 /wp-content/themes/<theme>/node_modules
 /wp-content/uploads
 /wp-content/uploads_orig
@@ -10,8 +12,9 @@
 /wp-content/*.sql
 /wp-content/*.sql.zip
 /wp-content/ai1wm-backups
-
+/wp-content/object-cache.php
 /wp-content/mu-plugins
+/wp-content/wflogs
 
 *.mp4
 

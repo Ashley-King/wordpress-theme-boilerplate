@@ -23,9 +23,9 @@
 /* -------------------- */
 
   /* colors - hsl values */
-  $clr-dark: 230 35% 7%;
-  $clr-accent: 231, 77%, 90%;
-  $clr-white: 0 0% 100%; 
+  $clr-dark: #000;
+  $clr-accent: #ffc107;
+  $clr-white: #fff; 
 
   /* font sizes */
   $fs-14: 1.4rem;
@@ -53,13 +53,23 @@
   $fs-100: 10rem;
   $fs-150: 15rem;
 
+  /* font weights */
+  $fw-100: 100;
+  $fw-200: 200;
+  $fw-300: 300;
+  $fw-400: 400;
+  $fw-500: 500;
+  $fw-600: 600;
+  $fw-700: 700;
+  $fw-800: 800;
+  $fw-900: 900;
+
   /* Font Families */
   $ff-barlow: 'Barlow', sans-serif;
   $ff-barlow-condensed: 'Barlow Condensed', sans-serif;
   $ff-bellefair: 'Bellefair', serif;
 
-  /* gap for grid and flex */
-  $gap: 1rem;
+ 
 
 /* -------------------- */
 /* RESET - taken from:
@@ -104,9 +114,7 @@ body{
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   -webkit-font-smoothing: antialiased;
-  font-family: var(--ff-open);
-  font-size: var(--fs-18);
-  color: hsl(var(--clr-text));
+  
 }
 
 input,
@@ -133,7 +141,7 @@ h5,
 h6,
 p,
 li{
-  font-weight: var(--fw-400);
+  font-weight: 400;
 }
 
 p, 
@@ -188,15 +196,15 @@ button::-moz-focus-inner,
 /* BACKGROUND COLORS */
 
 .bg-dark{
-  background-color: hsl($clr-dark);
+  background-color: $clr-dark;
 }
 
 .bg-accent{
-  background-color: hsl($clr-accent);
+  background-color: $clr-accent;
 }
 
 .bg-white{
-  background-color: hsl($clr-white);
+  background-color: $clr-white;
 }
 
 /* FONT SIZES */

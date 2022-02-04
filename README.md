@@ -22,9 +22,6 @@
 - __changes made directly to style.css will not persist__
 - all css & sass code should go in the sass directory
 - all sass files are imported into /assets/sass/style.scss
-- this theme imports the [bootstrap grid](https://github.com/twbs/bootstrap/blob/main/dist/css/bootstrap-grid.min.css) and [normalize.css](https://necolas.github.io/normalize.css/)
-- scripts for [slick slider](https://kenwheeler.github.io/slick/), [micromodal](https://micromodal.now.sh) & [perfect scrollbar](https://github.com/mdbootstrap/perfect-scrollbar) are commented out in functions.php
 - this theme supports a primary menu and a footer menu 
 - support for an example custom post type is commented out in functions.php
 - this theme supports an [advanced custom fields](https://www.advancedcustomfields.com) site options page (see functions.php)
-- included and commented-out vendor scripts/files may not be totally up-to-date...it's best to double check 🤓

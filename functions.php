@@ -74,7 +74,7 @@ function theme_scripts() {
    /**
      * MAIN STYLE SHEET
      */
-    wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css',false,'1.0.0','all');
+    wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css',false,'','all');
 
     	 /**
      * MAIN JS FILE
@@ -82,22 +82,7 @@ function theme_scripts() {
     
   wp_enqueue_script('custom-scripts', get_template_directory_uri() . '/assets/js/custom.js', array('jquery'), '', true);
 
-    /**
-     * SLICK SLIDER STYLE SHEET
-     */
-    // wp_enqueue_style( 'slick-styles', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css',false,'1.0.0','all');
-    
-  /**
-     * MICROMODAL
-     */
-  
-    // wp_enqueue_script('modal-scripts',  'https://unpkg.com/micromodal/dist/micromodal.min.js', array('jquery'), '', true);
-
-     /**
-     * PERFECT SCROLLBAR
-     */
-  
-    // wp_enqueue_script('scrollbar-scripts', get_template_directory_uri() . '/assets/js/vendor/perfect-scrollbar.js', array('jquery'), '', true);
+ 
     
 
     

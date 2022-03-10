@@ -32,8 +32,8 @@ function theme_setup() {
      * Add support for two custom navigation menus.
      */
     register_nav_menus( array(
-        'primary'   => __( 'Primary Menu', '<theme>' ),
-        'footer-menu' => __('Footer Menu', '<theme>' )
+        'primary_menu'   => __( 'Primary Menu', '<theme>' ),
+        'footer_menu' => __('Footer Menu', '<theme>' )
     ) );
 
     add_theme_support( 'html5', array(

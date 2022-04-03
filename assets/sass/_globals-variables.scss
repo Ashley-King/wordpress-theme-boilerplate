@@ -1,4 +1,4 @@
-/* TABLE OF CONTENTS
+/* SAMPLE TABLE OF CONTENTS
 --FONT FACES
 --VARIABLES
 --RESET
@@ -31,12 +31,10 @@
 /* VARIABLES           */
 /* -------------------- */
 
-  /* colors - hsl values */
-  $clr-dark: #000;
-  $clr-accent: #ffc107;
-  $clr-white: #fff; 
+  /* colors */
+  
 
-  /* font sizes */
+  /* font sizes - base font of 10px */
   $fs-14: 1.4rem;
   $fs-16: 1.6rem;
   $fs-18: 1.8rem;
@@ -74,9 +72,7 @@
   $fw-900: 900;
 
   /* Font Families */
-  $ff-barlow: 'Barlow', sans-serif;
-  $ff-barlow-condensed: 'Barlow Condensed', sans-serif;
-  $ff-bellefair: 'Bellefair', serif;
+  
 
  
 
@@ -198,19 +194,7 @@ button::-moz-focus-inner,
 /* UTILITIES            */
 /* -------------------- */
 
-/* BACKGROUND COLORS */
 
-.bg-dark{
-  background-color: $clr-dark;
-}
-
-.bg-accent{
-  background-color: $clr-accent;
-}
-
-.bg-white{
-  background-color: $clr-white;
-}
 
 /* FONT SIZES */
 
@@ -226,74 +210,7 @@ button::-moz-focus-inner,
 .fs-20{
   font-size: $fs-20;
 }
-.fs-22{
-  font-size: $fs-22;
-}
-.fs-24{
-  font-size: $fs-24;
-}
-.fs-28{
-  font-size: $fs-28;
-}
-.fs-32{
-  font-size: $fs-32;
-}
-.fs-34{
-  font-size: $fs-34;
-}
-.fs-36{
-  font-size: $fs-36;
-}
-.fs-38{
-  font-size: $fs-38;
-}
-.fs-40{
-  font-size: $fs-40;
-}
-.fs-42{
-  font-size: $fs-42;
-}
-.fs-44{
-  font-size: $fs-44;
-}
-.fs-46{
-  font-size: $fs-46;
-}
-.fs-48{
-  font-size: $fs-48;
-}
-.fs-50{
-  font-size: $fs-50;
-}
 
-.fs-56{
-  font-size: $fs-56;
-  line-height: 1.1;
-}
-.fs-64{
-  font-size: $fs-64;
-  line-height: 1.1;
-}
-.fs-72{
-  font-size: $fs-72;
-  line-height: 1.1;
-}
-.fs-80{
-  font-size: $fs-80;
-  line-height: 1.1;
-}
-.fs-96{
-  font-size: $fs-96;
-  line-height: 1.1;
-}
-.fs-100{
-  font-size: $fs-100;
-  line-height: 1.1;
-}
-.fs-150{
-  font-size: $fs-150;
-  line-height: 1.1;
-}
 
 /* FONT WEIGHTS */
 
@@ -327,15 +244,7 @@ button::-moz-focus-inner,
 
 /* FONT FAMILIES */
 
-.ff-barlow{
-  font-family: $ff-barlow;
-}
-.ff-barlow-condensed{
-  font-family: $ff-barlow-condensed;
-}
-.ff-bellefair{
-  font-family: $ff-bellefair;
-}
+
 
 /* TEXT STYLES */
 .text-left {
